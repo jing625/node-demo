@@ -1,0 +1,32 @@
+#yin-yang {
+	width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #ffffff 50%,#000000 50%,#000000 100%); 
+	position: relative;
+}
+
+#yin-yang:before {
+	content: "";
+	position: absolute;
+	top: 50px;
+	left: 0;
+	background: #eeeeee;
+	border: 40px solid #000000;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+
+#yin-yang:after {
+	content: "";
+	position: absolute;
+	top: 50px;
+	right: 0;
+	background: #000000;
+	border: 40px solid #ffffff;
+	border-radius:50%;
+	width: 20px;
+	height: 20px;
+}
